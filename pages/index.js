@@ -8,12 +8,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Pizza Restaurant in Newyork</title>
+        <title>Pizza Restaurant in Andhra!</title>
         <meta name="description" content="Best pizza shop in town" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Featured/>
-      <PizzaList/>
+      <Featured />
+      <PizzaList />
     </div>
   );
 }
