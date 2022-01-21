@@ -17,6 +17,7 @@ const Featured = () => {
 
   return (
     <div className={styles.container}>
+      <p className={styles.line}>burger on 50% off</p>
       <div
         className={styles.arrowContainer}
         style={{ left: 0 }}
