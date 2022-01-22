@@ -1,5 +1,5 @@
 .container {
-  height: calc(100vh - 100px);
+  height: calc(105vh - 100px);
   background-color: SlateBlue;
   overflow: hidden;
   position: relative;

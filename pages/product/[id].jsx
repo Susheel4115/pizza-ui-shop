@@ -8,7 +8,7 @@ const Product = () => {
     id: 1,
     img: "/img/pizza.png",
     name: "CAMPAGNOLA",
-    price: [19.9, 23.9, 27.9],
+    price: [500, 600, 700],
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu purus, rhoncus fringilla vestibulum vel, dignissim vel ante. Nulla facilisi. Nullam a urna sit amet tellus pellentesque egestas in in ante.",
   };
 
@@ -21,7 +21,7 @@ const Product = () => {
       </div>
       <div className={styles.right}>
         <h1 className={styles.title}>{pizza.name}</h1>
-        <span className={styles.price}>${pizza.price[size]}</span>
+        <span className={styles.price}>₹{pizza.price[size]}</span>
         <p className={styles.desc}>{pizza.desc}</p>
         <h3 className={styles.choose}>Choose the size</h3>
         <div className={styles.sizes}>
@@ -78,8 +78,8 @@ const Product = () => {
           </div>
         </div>
         <div className={styles.add}>
-            <input type="number" defaultValue={1} className={styles.quantity}/>
-            <button className={styles.button}>Add to Cart</button>
+          <input type="number" defaultValue={1} className={styles.quantity} />
+          <button className={styles.button}>Add to Cart</button>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 .container {
-  height: calc(100vh - 100px);
+  height: calc(105vh - 100px);
   display: flex;
 }
 
@@ -27,6 +27,7 @@
   font-size: 24px;
   font-weight: 400;
   border-bottom: 1px solid #d1411e;
+  cursor: pointer;
 }
 
 .sizes {
@@ -89,7 +90,7 @@
 .button {
   height: 30px;
   margin-left: 10px;
-  background-color: #d1411e;
+  background-color: #5c11e7;
   color: white;
   border: none;
   font-weight: 500;
