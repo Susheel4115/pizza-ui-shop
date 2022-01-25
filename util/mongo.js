@@ -8,6 +8,8 @@ if (!MONGO_URL) {
   );
 }
 
+console.log("Database connection success");
+
 /**
  * Global is used here to maintain a cached connection across hot reloads
  * in development. This prevents connections growing exponentially
