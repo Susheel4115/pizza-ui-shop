@@ -25,13 +25,13 @@ const Order = () => {
                 <span className={styles.id}>129837819237</span>
               </td>
               <td>
-                <span className={styles.name}>John Doe</span>
+                <span className={styles.name}>Susheel Kumar</span>
               </td>
               <td>
-                <span className={styles.address}>Elton st. 212-33 LA</span>
+                <span className={styles.address}>Guntur Mgl-522503</span>
               </td>
               <td>
-                <span className={styles.total}>$79.80</span>
+                <span className={styles.total}>₹5000</span>
               </td>
             </tr>
           </table>
@@ -95,13 +95,13 @@ const Order = () => {
         <div className={styles.wrapper}>
           <h2 className={styles.title}>CART TOTAL</h2>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Subtotal:</b>$79.60
+            <b className={styles.totalTextTitle}>Subtotal:</b>₹5000
           </div>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Discount:</b>$0.00
+            <b className={styles.totalTextTitle}>Discount:</b>₹0.00
           </div>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Total:</b>$79.60
+            <b className={styles.totalTextTitle}>Total:</b>₹5000
           </div>
           <button disabled className={styles.button}>
             PAID

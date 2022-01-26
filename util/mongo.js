@@ -7,7 +7,6 @@ if (!MONGO_URL) {
     "Please define the MONGO_URL environment variable inside .env.local"
   );
 }
-
 console.log("Database connection success");
 
 /**
