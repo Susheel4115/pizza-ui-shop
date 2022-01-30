@@ -34,13 +34,13 @@ const Cart = () => {
               </span>
             </td>
             <td>
-              <span className={styles.price}>$19.90</span>
+              <span className={styles.price}>₹500</span>
             </td>
             <td>
               <span className={styles.quantity}>2</span>
             </td>
             <td>
-              <span className={styles.total}>$39.80</span>
+              <span className={styles.total}>₹1000</span>
             </td>
           </tr>
           <tr className={styles.tr}>
@@ -63,13 +63,13 @@ const Cart = () => {
               </span>
             </td>
             <td>
-              <span className={styles.price}>$19.90</span>
+              <span className={styles.price}>₹1000</span>
             </td>
             <td>
               <span className={styles.quantity}>2</span>
             </td>
             <td>
-              <span className={styles.total}>$39.80</span>
+              <span className={styles.total}>₹2000</span>
             </td>
           </tr>
         </table>
@@ -78,13 +78,13 @@ const Cart = () => {
         <div className={styles.wrapper}>
           <h2 className={styles.title}>CART TOTAL</h2>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Subtotal:</b>₹5000
+            <b className={styles.totalTextTitle}>Subtotal:</b>₹3000
           </div>
           <div className={styles.totalText}>
             <b className={styles.totalTextTitle}>Discount:</b>₹0
           </div>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Total:</b>₹5000
+            <b className={styles.totalTextTitle}>Total:</b>₹3000
           </div>
           <button className={styles.button}>CHECKOUT NOW!</button>
         </div>
